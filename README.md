@@ -11,13 +11,13 @@
 
 ## ✅ Features
 
-- 🔐 **AES encryption**: High-grade symmetric encryption with integrity checks
-- 🔑 **Passphrase protected**: Only the correct phrase can decrypt your files
-- 🌐 **Web-based interface**: Upload, download, and decrypt via browser
-- 🎧 **Music streaming**: Stream encrypted music files securely
-- 🧩 **Universal file support**: Upload and encrypt any file type
-- 💻 **Self-hosted**: Run locally, no dependency on third-party cloud
-- 🧠 **Stateless design**: Passphrases and keys never leave your machine
+- **AES encryption**: High-grade symmetric encryption with integrity checks
+- **Passphrase protected**: Only the correct phrase can decrypt your files
+- **Web-based interface**: Upload, download, and decrypt via browser
+- **Music streaming**: Stream encrypted music files securely
+- **Universal file support**: Upload and encrypt any file type
+- **Self-hosted**: Run locally, no dependency on third-party cloud
+- **Stateless design**: Passphrases and keys never leave your machine
 
 ---
 
@@ -66,3 +66,9 @@ pip install -r requirements.txt
 
 # Run the app
 python app.py
+
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
