@@ -1,8 +1,8 @@
 # 🔐 CRYPTXFER – Secure, Private & Encrypted File Sharing
 
 <p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzF5emt0eTJ6cXBtd2UzNGpzNTZ5ODF5ZG90aGhzZzJ1YWNtOGE4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="300" height="300" style="margin-right: 10px;" />
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZqOXVuNTR3ZWhrdDFrb2ZmczJvaDZhZmd6NG4yMTU3YnR1b2RxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5wWf7HfQJzA8cze6CWc/giphy.gif" width="300" height="300" />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzF5emt0eTJ6cXBtd2UzNGpzNTZ5ODF5ZG90aGhzZzJ1YWNtOGE4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="400" height="400" style="margin-right: 70px;" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZqOXVuNTR3ZWhrdDFrb2ZmczJvaDZhZmd6NG4yMTU3YnR1b2RxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5wWf7HfQJzA8cze6CWc/giphy.gif" width="400" height="400" />
 </p>
 
 **CRYPTXFER** is a lightweight and privacy-first file encryption and sharing tool built for individuals who value **data control**, **security**, and **simplicity**. Whether you're transferring sensitive documents, personal media, or project files — CRYPTXFER ensures they stay **encrypted**, **private**, and **only accessible with your passphrase**.
