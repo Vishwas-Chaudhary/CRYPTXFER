@@ -1,57 +1,58 @@
-# 🔐 CRYPTXFER
+# 🔐 CRYPTXFER – Secure, Private & Encrypted File Sharing
 
-**CRYPTXFER** is a secure, self-hosted file transfer and storage application. It encrypts files locally in the browser using AES-GCM and protects them with a user-defined passphrase. Only someone with the correct passphrase can decrypt the file, ensuring privacy and control over your data.
+![CRYPTXFER Demo](https://your-demo-gif-link-here.gif) <!-- Replace with actual GIF URL -->
 
----
-
-## 🌐 Use Cases
-
-CRYPTXFER is ideal for:
-
-- 🗄️ **Personal Cloud Storage**: Encrypt files before uploading to cloud services.
-- 🔗 **Secure File Sharing**: Share sensitive documents with trusted contacts.
-- 🔐 **Local Password Vault**: Save credentials or private notes in encrypted files.
-- 💾 **Backup Solution**: Secure your backups with strong encryption.
-- 🧾 **Confidential Business Data**: Protect financial records, legal files, etc.
-- 🩺 **Medical Files**: Help maintain HIPAA compliance with patient record encryption.
-- 📚 **Academic Research**: Safeguard unpublished findings when collaborating.
+**CRYPTXFER** is a lightweight and privacy-first file encryption and sharing tool built for individuals who value **data control**, **security**, and **simplicity**. Whether you're transferring sensitive documents, personal media, or project files — CRYPTXFER ensures they stay **encrypted**, **private**, and **only accessible with your passphrase**.
 
 ---
 
-## ✅ Benefits
+## ✅ Features
 
-- **🔒 End-to-End Encryption**: Files are encrypted on your device before upload.
-- **🛡️ Enhanced Privacy**: Even if storage is compromised, your files remain unreadable.
-- **🧩 No Vendor Lock-in**: Use and store encrypted files anywhere you like.
-- **🧠 Open Source & Auditable**: Transparent and modifiable.
-- **📱 Cross-Platform**: Works on any modern browser.
-- **🧭 Intuitive UI**: Designed for users of all technical levels.
-- **🖼️ Content-Agnostic**: Encrypt any file format — from PDFs to media files.
-- **🚫 No Accounts Needed**: Use instantly without registration.
+- 🔐 **AES encryption**: Military-grade symmetric encryption with integrity checks
+- 🔑 **Passphrase protected**: Only the correct phrase can decrypt your files
+- 🌐 **Web-based interface**: Upload, download, and decrypt via browser
+- 🎧 **Music streaming**: Stream encrypted music files securely
+- 🧩 **Universal file support**: Upload and encrypt any file type
+- 💻 **Self-hosted**: Run locally, no dependency on third-party cloud
+- 🧠 **Stateless design**: Passphrases and keys never leave your machine
 
 ---
 
-## 🔧 Features
+## 🧠 How It Works
 
-- **AES-GCM Encryption** – Modern, secure, and authenticated file encryption.
-- **Passphrase Protected** – Files are tied to your passphrase, not your identity.
-- **Web Interface** – Simple upload/download with drag-and-drop support.
-- **Music Player** – Built-in player for audio files (MP3, WAV, etc.).
-- **Privacy First** – No passphrase or unencrypted data is ever stored.
+- Files are encrypted using **AES** before upload.
+- Encrypted files are stored in the `encrypted_files/` directory.
+- Users must enter the same passphrase to decrypt and access the files.
+- The app can directly stream audio from encrypted `.mp3` files.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology            |
-|-------------|------------------------|
-| **Frontend** | HTML, CSS, JavaScript |
-| **Backend**  | Python (Flask)        |
-| **Encryption** | PyCryptodome (AES-GCM) |
+| Layer      | Technology                |
+|------------|---------------------------|
+| Backend    | Python, Flask             |
+| Encryption | PyCryptodome (AES)        |
+| Frontend   | HTML, CSS, Vanilla JS     |
 
 ---
 
-## 📥 Installation
+## 📁 Project Structure
+
+CRYPTXFER/
+├── app.py # Flask app entry point (routes and server logic)
+├── encryption.py # AES encryption/decryption functions
+├── requirements.txt # Python dependencies
+├── encrypted_files/ # Directory to store encrypted files
+├── static/
+│ ├── css/ # Custom styling (optional)
+│ ├── js/ # Frontend JavaScript logic
+│ └── music/ # (Optional) For serving encrypted music streams
+└── templates/
+└── index.html # Main HTML page served by Flask
+---
+
+## ⚙️ Getting Started
 
 ```bash
 # Clone the repository
