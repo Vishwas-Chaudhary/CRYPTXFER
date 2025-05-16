@@ -1,6 +1,6 @@
 # 🔐 CRYPTXFER – Secure, Private & Encrypted File Sharing
 
-![CRYPTXFER Demo](https://your-demo-gif-link-here.gif) <!-- Replace with actual GIF URL -->
+![CRYPTXFER Demo](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzF5emt0eTJ6cXBtd2UzNGpzNTZ5ODF5ZG90aGhzZzJ1YWNtOGE4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif)
 
 **CRYPTXFER** is a lightweight and privacy-first file encryption and sharing tool built for individuals who value **data control**, **security**, and **simplicity**. Whether you're transferring sensitive documents, personal media, or project files — CRYPTXFER ensures they stay **encrypted**, **private**, and **only accessible with your passphrase**.
 
@@ -8,7 +8,7 @@
 
 ## ✅ Features
 
-- 🔐 **AES encryption**: Military-grade symmetric encryption with integrity checks
+- 🔐 **AES encryption**: High-grade symmetric encryption with integrity checks
 - 🔑 **Passphrase protected**: Only the correct phrase can decrypt your files
 - 🌐 **Web-based interface**: Upload, download, and decrypt via browser
 - 🎧 **Music streaming**: Stream encrypted music files securely
@@ -37,20 +37,19 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
+```
 CRYPTXFER/
-├── app.py # Flask app entry point (routes and server logic)
-├── encryption.py # AES encryption/decryption functions
-├── requirements.txt # Python dependencies
-├── encrypted_files/ # Directory to store encrypted files
-├── static/
-│ ├── css/ # Custom styling (optional)
-│ ├── js/ # Frontend JavaScript logic
-│ └── music/ # (Optional) For serving encrypted music streams
-└── templates/
-└── index.html # Main HTML page served by Flask
----
+├── app.py                  # Main Flask application
+├── encryption.py           # Encryption/decryption functions
+├── requirements.txt        # Python dependencies
+├── encrypted_files/        # Directory for storing encrypted files
+├── static/                 # Static resources (JS, CSS, images)
+│   └── music/              # Music files for the media player
+└── templates/              # HTML templates
+    └── index.html          # Main application interface
+```
 
 ## ⚙️ Getting Started
 
